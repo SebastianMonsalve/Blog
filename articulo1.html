@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/blog/css/articulo.css" />
+    <link
+      rel="shortcut icon"
+      href="/blog/img/tecnologia.png"
+      type="image/x-icon"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>Protocolos de Internet | Sebastian Monsalve</title>
+  </head>
+  <body>
+    <section class="content-page">
+      <div class="left-index">
+        <div class="nav">
+          <div class="logo">
+            <a href="/blog/blog.html"
+              ><i class="bx bx-chevrons-left"></i>Regresar</a
+            >
+          </div>
+        </div>
+        <ul>
+          <li><a href="#INTRO" class="btn">•Introducción</a></li>
+          <li><a href="#PDI" class="btn">•Protocolos de Internet</a></li>
+          <li><a href="#HTTP" class="btn">•Hypertext Transfer Protocol</a></li>
+          <li>
+            <a href="#TCP" class="btn"
+              >•Transmission Control Protocol/Internet Protocol</a
+            >
+          </li>
+          <li><a href="#DNS" class="btn">•Domain Name System</a></li>
+          <li><a href="#CDN" class="btn">•Content Delivery Network</a></li>
+          <li><a href="#WWW" class="btn">•World Wide Web</a></li>
+          <li><a href="#FTP" class="btn">•File Transfer Protocol</a></li>
+          <li><a href="#HTML" class="btn">•Hypertext Markup Language</a></li>
+          <li><a href="#REF" class="btn">•Referencias</a></li>
+        </ul>
+        <h6>Sebastian Monsalve | &copy 2023</h6>
+      </div>
+      <div class="usable">
+        <div class="right-index">
+          <h2 class="title" id="ART">
+            Un Vistazo a los Protocolos de Internet: Cimientos Invisible de la
+            Era Digital
+          </h2>
+          <div class="line"></div>
+          <img src="/blog/img/Protocolos.jpg" alt="" />
+          <div class="description">
+            <div class="info">
+              <p>
+                Autor:
+                <a
+                  href="https://sebastianmonsalve.neocities.org/"
+                  target="_blank"
+                >
+                  Sebastian Monsalve</a
+                >
+              </p>
+              <p>Fecha de publicación: 30 de agosto de 2023</p>
+            </div>
+            <h3 class="subtitle" id="INTRO">Introducción</h3>
+            <p>
+              Sumérgete en el intrigante mundo de las reglas invisibles que
+              impulsan una comunicación perfecta entre dispositivos globales.
+              Desde la transmisión confiable de datos hasta la presentación de
+              información enriquecedora, desentrañamos el enigma detrás de la
+              arquitectura digital que sustenta nuestra vida moderna. Descubre
+              cómo estas pautas se entrelazan como piezas de un rompecabezas
+              para tejer la red global que define nuestro presente,
+              transformando la forma en que el mundo accede y comparte
+              información.
+            </p>
+            <p>
+              En el vasto panorama de programas y computadoras interconectadas,
+              emerge la Internet como protagonista. La correcta conexión entre
+              redes y ordenadores se vuelve primordial, impulsando así el
+              desarrollo de las direcciones de Protocolo de Internet (IP). A
+              través de una secuencia numérica única, las direcciones IP
+              permiten a las computadoras identificar y localizar específicos
+              dispositivos en cuestión de segundos, estableciendo conexiones
+              automáticas.
+            </p>
+            <p>
+              ¿Alguna vez has encontrado la advertencia "este sitio web detecta
+              direcciones IP" mientras navegabas en línea? Esto ilustra cómo el
+              sistema busca identificar y conectar a través de las direcciones
+              IP. Adéntrate en este fascinante viaje donde las reglas ocultas
+              construyen un tejido invisible que une nuestro mundo digital.
+            </p>
+            <h3 class="subtitle" id="PDI">Protocolos de Internet</h3>
+            <p>
+              Los protocolos de Internet son un conjunto de reglas y estándares
+              que gobiernan la comunicación y el intercambio de datos en la red
+              global. Actuando como un marco fundamental, estos protocolos
+              definen cómo los dispositivos y sistemas informáticos deben
+              interactuar entre sí para lograr un intercambio de información
+              efectivo y confiable. Desde la transmisión de datos hasta la
+              navegación web y la entrega de correos electrónicos, los
+              protocolos de Internet, como el TCP/IP (Protocolo de Control de
+              Transmisión/Protocolo de Internet), establecen las directrices
+              para segmentar, direccionar y reensamblar los datos en paquetes,
+              garantizando que lleguen intactos a su destino. Además, estos
+              protocolos permiten la identificación única de dispositivos a
+              través de direcciones IP y facilitan la conexión sin problemas en
+              la vasta infraestructura de la red, desempeñando un papel esencial
+              en la funcionalidad cotidiana de la comunicación en línea y en la
+              interconexión global.
+            </p>
+            <h3 class="subtitle" id="HTTP">
+              1) Hypertext Transfer Protocol (HTTP)
+            </h3>
+            <p>
+              El Protocolo de Transferencia de Hipertexto, o Hypertext Transfer
+              Protocol (HTTP por sus siglas en inglés), es un protocolo de
+              comunicación utilizado en la World Wide Web (WWW) para la
+              transferencia de información entre un cliente, como un navegador
+              web, y un servidor que aloja el contenido web. HTTP facilita la
+              solicitud y entrega de recursos, como páginas web, imágenes y
+              otros archivos, a través de Internet.
+            </p>
+            <p>
+              Este protocolo opera bajo un modelo de solicitud-respuesta, donde
+              el cliente envía una solicitud HTTP al servidor para obtener
+              cierto contenido, y el servidor responde con los datos
+              solicitados. Las solicitudes y respuestas están estructuradas en
+              un formato específico, que incluye encabezados y, en el caso de
+              las respuestas, el cuerpo del contenido.
+            </p>
+            <p>
+              HTTP también puede ser seguro mediante el uso de HTTP Secure
+              (HTTPS), que agrega una capa de cifrado mediante protocolos de
+              seguridad como TLS/SSL, garantizando la confidencialidad y la
+              integridad de los datos transmitidos.
+            </p>
+            <h3 class="subtitle" id="TCP">
+              2) Transmission Control Protocol/Internet Protocol (TCP/IP)
+            </h3>
+            <p>
+              El Protocolo de Control de Transmisión/Protocolo de Internet, o
+              Transmission Control Protocol/Internet Protocol (TCP/IP en
+              inglés), es un conjunto de protocolos interrelacionados que forman
+              la base de la comunicación en Internet y en muchas redes privadas.
+              Estos protocolos definen cómo los dispositivos se comunican y
+              comparten datos en una red, asegurando la conectividad y la
+              transferencia confiable de información.
+            </p>
+            <p>
+              El Protocolo de Internet (IP) maneja la dirección y el
+              enrutamiento de los datos, asegurando que se envíen al destino
+              correcto a través de la red global. El Protocolo de Control de
+              Transmisión (TCP) se construye sobre IP y se encarga de dividir
+              los datos en paquetes, establecer conexiones entre dispositivos y
+              garantizar que los datos lleguen de manera ordenada y sin errores.
+              TCP también controla el flujo de datos, ajustando la velocidad de
+              transmisión según la capacidad de la red y el receptor.
+            </p>
+            <p>
+              Conjuntamente, TCP/IP es esencial para la operación de Internet,
+              permitiendo la comunicación sin problemas entre una amplia
+              variedad de dispositivos y sistemas en todo el mundo.
+            </p>
+            <h3 class="subtitle" id="DNS">3) Domain Name System (DNS)</h3>
+            <p>
+              El Sistema de Nombres de Dominio, o Domain Name System (DNS en
+              inglés), es una infraestructura crucial en Internet que traduce
+              las direcciones de los sitios web y otros recursos en línea en
+              números IP (Direcciones de Protocolo de Internet) comprensibles
+              por las computadoras. En lugar de recordar direcciones IP
+              numéricas, los usuarios pueden utilizar nombres de dominio fáciles
+              de recordar, como "www.ejemplo.com", para acceder a sitios web.
+            </p>
+            <p>
+              El DNS actúa como un directorio global que asigna nombres de
+              dominio legibles para los humanos a las direcciones IP numéricas
+              necesarias para la navegación en la red. Cuando un usuario ingresa
+              una URL en su navegador, el sistema DNS se encarga de localizar la
+              dirección IP correspondiente al dominio y direccionar la solicitud
+              al servidor correcto que aloja el sitio web.
+            </p>
+            <p>
+              Este proceso de traducción de nombres de dominio a direcciones IP
+              se realiza a través de servidores DNS distribuidos en todo el
+              mundo. El DNS es esencial para la navegación web y la comunicación
+              en Internet, ya que proporciona una forma amigable para que los
+              usuarios accedan a recursos en línea sin tener que memorizar
+              largas secuencias de números.
+            </p>
+            <h3 class="subtitle" id="CDN">4) Content Delivery Network (CDN)</h3>
+            <p>
+              Una Red de Distribución de Contenidos, o Content Delivery Network
+              (CDN en inglés), es una infraestructura descentralizada de
+              servidores distribuidos geográficamente diseñada para mejorar la
+              velocidad, la eficiencia y la disponibilidad de la entrega de
+              contenido en línea. Su objetivo principal es optimizar la
+              experiencia del usuario al entregar de manera rápida y confiable
+              contenido web, como imágenes, videos, archivos y páginas, a través
+              de una red global de servidores.
+            </p>
+            <p>
+              Cuando un usuario accede a un sitio web o solicita un recurso, la
+              CDN identifica la ubicación geográfica del usuario y direcciona la
+              solicitud al servidor CDN más cercano. Esto reduce la latencia y
+              el tiempo de carga al minimizar la distancia que los datos deben
+              viajar. Además, la CDN almacena en caché contenido estático en sus
+              servidores, lo que disminuye la carga en el servidor original y
+              mejora la escalabilidad.
+            </p>
+            <p>
+              Las CDNs también proporcionan medidas de seguridad, como
+              protección contra ataques distribuidos de denegación de servicio
+              (DDoS), y pueden ofrecer optimización de contenido, compresión y
+              otras técnicas para mejorar el rendimiento. En definitiva, las
+              CDNs desempeñan un papel esencial en la entrega eficiente y
+              confiable de contenido en línea, mejorando la experiencia del
+              usuario y reduciendo la carga en los servidores originales.
+            </p>
+            <h3 class="subtitle" id="WWW">5) World Wide Web (WWW)</h3>
+            <p>
+              La World Wide Web (WWW), comúnmente conocida como la web, es un
+              sistema de información global y conectado que opera en Internet.
+              Fue concebida como una forma de acceder y compartir información de
+              manera interconectada a través de hipervínculos y recursos
+              multimedia. La web se compone de páginas web, que pueden contener
+              texto, imágenes, videos, enlaces y otros elementos interactivos.
+            </p>
+            <p>
+              La WWW se basa en tecnologías como el hipertexto, que permite
+              vincular palabras o imágenes en una página a otras páginas
+              relacionadas. Los navegadores web, como Chrome, Firefox y Safari,
+              interpretan estos enlaces y permiten a los usuarios navegar de una
+              página a otra con solo hacer clic.
+            </p>
+            <p>
+              La creación de la WWW se atribuye a Tim Berners-Lee en 1989, y
+              desde entonces ha revolucionado la forma en que accedemos a la
+              información y nos comunicamos. La web ha permitido la creación de
+              redes sociales, el comercio electrónico, la educación en línea y
+              muchas otras aplicaciones que han transformado la sociedad y la
+              cultura en la era digital.
+            </p>
+            <h3 class="subtitle" id="FTP">6) File Transfer Protocol (FTP)</h3>
+            <p>
+              El Protocolo de Transferencia de Archivos, o File Transfer
+              Protocol (FTP en inglés), es un protocolo estándar utilizado para
+              la transferencia de archivos entre sistemas informáticos a través
+              de una red, como Internet. FTP facilita la copia de archivos desde
+              un sistema a otro, permitiendo que los usuarios suban o descarguen
+              archivos de servidores remotos de manera eficiente.
+            </p>
+            <p>
+              FTP opera en un modelo cliente-servidor, donde un cliente se
+              conecta a un servidor FTP para intercambiar archivos. Los usuarios
+              pueden acceder al servidor a través de programas de software
+              conocidos como clientes FTP, que les permiten navegar por los
+              directorios del servidor, subir archivos desde su sistema local al
+              servidor, y descargar archivos del servidor a su sistema local.
+            </p>
+            <p>
+              Aunque FTP es ampliamente utilizado, es importante tener en cuenta
+              que las transferencias a través de FTP no están cifradas por
+              defecto, lo que significa que los datos transmitidos no están
+              protegidos. Para una mayor seguridad, se recomienda el uso de
+              variantes seguras del protocolo, como FTPS (FTP seguro) o SFTP
+              (SSH File Transfer Protocol), que añaden capas de cifrado y
+              autenticación para proteger los datos durante la transferencia.
+            </p>
+            <h3 class="subtitle" id="HTML">
+              7) Hypertext Markup Language (HTML)
+            </h3>
+            <p>
+              El Lenguaje de Marcado de Hipertexto, o Hypertext Markup Language
+              (HTML en inglés), es un lenguaje de marcado utilizado para crear y
+              estructurar contenido en páginas web. Es el lenguaje base de
+              construcción para la mayoría de los sitios web en Internet. HTML
+              utiliza etiquetas y elementos para definir la estructura y el
+              formato del contenido, como encabezados, párrafos, enlaces,
+              imágenes y otros elementos multimedia.
+            </p>
+            <p>
+              Las etiquetas HTML proporcionan instrucciones al navegador web
+              sobre cómo mostrar el contenido en una página. Cada etiqueta tiene
+              una función específica y se coloca dentro del código fuente de la
+              página. Por ejemplo, la etiqueta &lt;h1&gt; se utiliza para crear
+              un encabezado de nivel 1, mientras que la etiqueta &lt;p&gt; se
+              utiliza para definir un párrafo.
+            </p>
+            <p>
+              HTML se combina con otros lenguajes, como el CSS (Cascading Style
+              Sheets) para el diseño visual y el JavaScript para la
+              interactividad, para crear páginas web completas y dinámicas.
+              Cuando un navegador interpreta un documento HTML, muestra el
+              contenido estructurado y formateado según las instrucciones
+              proporcionadas por las etiquetas y elementos del lenguaje HTML.
+            </p>
+            <h3 class="subtitle" id="REF">Referencias</h3>
+            <p>
+              1. Wikipedia - Protocolo de Internet: Puedes encontrar información
+              detallada sobre TCP/IP, DNS, FTP y otros conceptos relacionados en
+              los artículos de Wikipedia.
+              <a
+                href="https://es.wikipedia.org/wiki/Protocolo_de_Control_de_Transmisi%C3%B3n/Protocolo_de_Internet"
+                target="_blank"
+                >Enlace a Wikipedia</a
+              >
+            </p>
+            <p>
+              2. Mozilla Developer Network (MDN) - HTML: MDN es una excelente
+              fuente para aprender sobre HTML y otros temas web. Proporciona
+              guías detalladas y ejemplos.
+              <a
+                href="https://developer.mozilla.org/es/docs/Web/HTML"
+                target="_blank"
+                >Enlace a MDN HTML</a
+              >
+            </p>
+            <p>
+              3. Cloudflare - Content Delivery Network: Cloudflare es una
+              empresa que ofrece servicios CDN y su blog tiene información útil
+              sobre cómo funcionan y sus beneficios.
+              <a
+                href="https://www.cloudflare.com/learning/cdn/what-is-a-cdn/"
+                target="_blank"
+                >Enlace a Cloudflare Blog</a
+              >
+            </p>
+            <p>
+              4. Computer Hope - FTP: Computer Hope es un recurso de ayuda
+              informática y contiene información sobre cómo funciona FTP y cómo
+              usarlo.
+              <a
+                href="https://www.computerhope.com/jargon/f/ftp.htm"
+                target="_blank"
+                >Enlace a Computer Hope FTP</a
+              >
+            </p>
+          </div>
+          <div class="footer-icontop">
+            <a href="#ART"><i class="bx bx-chevrons-up"></i></a>
+          </div>
+        </div>
+        <div class="space"></div>
+      </div>
+    </section>
+  </body>
+</html>

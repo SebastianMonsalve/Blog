@@ -1,0 +1,237 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+html {
+  scroll-behavior: smooth;
+  font-size: 100%;
+}
+
+.content-page {
+  width: 100vw;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 4.4fr;
+}
+.left-index {
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+  height: 100vh;
+  background: rgb(0, 90, 87);
+}
+.nav {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.logo {
+  display: flex;
+  justify-content: flex-start;
+  text-align: left;
+  align-items: center;
+  padding-left: 0.5rem;
+  width: 12rem;
+}
+.logo a {
+  position: relative;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 700;
+}
+.logo a i {
+  color: rgb(255, 255, 255);
+  font-size: 2em;
+}
+
+.logo:hover {
+  background: rgb(255, 255, 255);
+  width: 100%;
+}
+.logo:hover a {
+  color: rgb(0, 90, 87);
+}
+.logo:hover a i {
+  color: rgb(0, 90, 87);
+}
+
+.left-index ul {
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 6rem;
+}
+.left-index ul li {
+  list-style: none;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.left-index ul li a {
+  position: relative;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  border-bottom: 0.1rem solid rgba(28, 28, 41, 0);
+  justify-content: center;
+  align-items: center;
+  height: 2rem;
+}
+.left-index ul li:hover {
+  background: rgb(255, 255, 255);
+  width: 100%;
+}
+.left-index ul li:hover a {
+  color: rgb(0, 90, 87);
+}
+
+.left-index h6 {
+  color: rgb(255, 255, 255);
+  position: absolute;
+  font-size: 0.7em;
+  bottom: 1rem;
+  left: 10%;
+}
+
+.usable {
+  display: grid;
+  grid-template-columns: 3.5fr 1fr;
+}
+
+.right-index {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+.right-index .title {
+  color: rgb(28, 28, 41);
+  font-size: 2.4em;
+  padding-bottom: 0.5rem;
+  text-align: center;
+}
+.line {
+  width: 20rem;
+  height: 0.25rem;
+  background: rgb(0, 90, 87);
+  border-radius: 0.3125rem;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+
+.info {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.info a {
+  text-decoration: none;
+  color: rgb(0, 90, 87);
+  font-weight: 500;
+}
+
+.right-index img {
+  width: 78%;
+  object-fit: cover;
+  margin-bottom: 0.5rem;
+}
+.description {
+  width: 100%;
+  height: 100%;
+}
+
+.description .subtitle {
+  color: rgb(28, 28, 41);
+  font-size: 1.5em;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+}
+
+.description p {
+  padding-bottom: 0.5rem;
+}
+.description p a {
+  text-decoration: none;
+  color: rgb(0, 90, 87);
+  font-weight: 500;
+}
+
+.footer-icontop {
+  padding-top: 2rem;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-icontop a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(255, 255, 255);
+  border-radius: 0.625rem;
+  border: none;
+  transition: 0.5s ease;
+  text-decoration: none;
+}
+
+@media (hover: hover) {
+  .footer-icontop a:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 1rem rgb(255, 255, 255);
+    transition: 0.5s ease;
+  }
+}
+
+.footer-icontop a i {
+  font-size: 2.5em;
+  color: rgb(0, 90, 87);
+  text-decoration: none;
+}
+
+.space {
+  background: rgb(241, 241, 241);
+}
+
+@media (max-width: 52rem) {
+  .content-page {
+    display: flex;
+    flex-direction: column;
+  }
+  .left-index h6 {
+    display: none;
+  }
+  .right-index img {
+    width: 90%;
+  }
+  .info {
+    flex-direction: column;
+  }
+  .left-index {
+    position: relative;
+    overflow: scroll;
+    height: 100%;
+  }
+  .usable {
+    display: flex;
+    flex-direction: column;
+  }
+  .space {
+    display: none;
+  }
+}
