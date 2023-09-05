@@ -40,7 +40,10 @@ html {
   text-align: left;
   align-items: center;
   padding-left: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
   width: 12rem;
+  transition: 0.3s ease-in;
 }
 .logo a {
   position: relative;
@@ -50,23 +53,28 @@ html {
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-size: 1.5em;
-  font-weight: 700;
+  font-weight: 500;
+  transition: 0.3s ease-in;
 }
 .logo a i {
   color: rgb(255, 255, 255);
-  font-size: 2em;
+  font-size: 1.2em;
+  transition: 0.3s ease-in;
 }
 
 .logo:hover {
   background: rgb(255, 255, 255);
   width: 100%;
+  transition: 0.3s ease-in;
 }
 .logo:hover a {
   color: rgb(0, 90, 87);
+  transition: 0.3s ease-in;
+  letter-spacing: 0.2em;
 }
 .logo:hover a i {
   color: rgb(0, 90, 87);
+  transition: 0.3s ease-in;
 }
 
 .left-index ul {
